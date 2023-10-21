@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 
 export const Container = styled.div`
-  background-color: ${({ theme }) => theme.textLogo};
+  /* background-color: ${({ theme }) => theme.textLogo}; */
 
   .container {
     padding-left: 10px;
