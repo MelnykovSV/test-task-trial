@@ -1,5 +1,4 @@
 import { Container } from "./CatalogBody.styled";
-
 import { useSearchParams } from "react-router-dom";
 
 const CatalogBody = () => {
@@ -9,6 +8,8 @@ const CatalogBody = () => {
   const rentalPrice = searchParams.get("rentalPrice");
   const minMileage = searchParams.get("minMileage");
   const maxMileage = searchParams.get("maxMileage");
+
+  console.log("catalog body rendered");
 
   return (
     <Container>

@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-style: normal;
+  src: url("./../fonts/Manrope/Manrope.eot"); /* IE9 eot*/
+  src: url("./../fonts/Manrope/Manrope.eot?iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("./../fonts/Manrope/Manrope.woff2") format("woff2"),
+    /* chrome、firefox */ url("./../fonts/Manrope/Manrope.woff") format("woff"),
+    /* chrome、firefox */ url("./../fonts/Manrope/Manrope.ttf")
+      format("truetype"),
+    /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+      url("./../fonts/Manrope/Manrope.svg#Manrope") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {
+  font-family: "Manrope";
+  font-weight: 500;
+  font-style: normal;
+  src: url("./../fonts/Manrope Medium/Manrope Medium.eot"); /* IE9 eot*/
+  src: url("./../fonts/Manrope Medium/Manrope Medium.eot?iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("./../fonts/Manrope Medium/Manrope Medium.woff2")
+      format("woff2"),
+    /* chrome、firefox */ url("./../fonts/Manrope Medium/Manrope Medium.woff")
+      format("woff"),
+    /* chrome、firefox */ url("./../fonts/Manrope Medium/Manrope Medium.ttf")
+      format("truetype"),
+    /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+      url("./../fonts/Manrope Medium/Manrope Medium.svg#Manrope-Medium")
+      format("svg"); /* iOS 4.1- */
+}
+
+@font-face {
+  font-family: "Manrope";
+  font-weight: 600;
+  font-style: normal;
+  src: url("./../fonts/Manrope Semibold/Manrope Semibold.eot"); /* IE9 eot*/
+  src: url("./../fonts/Manrope Semibold/Manrope Semibold.eot?iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("./../fonts/Manrope Semibold/Manrope Semibold.woff2")
+      format("woff2"),
+    /* chrome、firefox */
+      url("./../fonts/Manrope Semibold/Manrope Semibold.woff") format("woff"),
+    /* chrome、firefox */
+      url("./../fonts/Manrope Semibold/Manrope Semibold.ttf") format("truetype"),
+    /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+      url("./../fonts/Manrope Semibold/Manrope Semibold.svg#Manrope-Semibold")
+      format("svg"); /* iOS 4.1- */
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-style: normal;
+  src: url("./../fonts/Montserrat Regular/Montserrat Regular.eot"); /* IE9 eot*/
+  src: url("./../fonts/Montserrat Regular/Montserrat Regular.eot?iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("./../fonts/Montserrat Regular/Montserrat Regular.woff2")
+      format("woff2"),
+    /* chrome、firefox */
+      url("./../fonts/Montserrat Regular/Montserrat Regular.woff")
+      format("woff"),
+    /* chrome、firefox */
+      url("./../fonts/Montserrat Regular/Montserrat Regular.ttf")
+      format("truetype"),
+    /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+      url("./../fonts/Montserrat Regular/Montserrat Regular.svg#Montserrat-Regular")
+      format("svg"); /* iOS 4.1- */
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-style: normal;
+  src: url("./../fonts/Montserrat SemiBold/Montserrat SemiBold.eot"); /* IE9 eot*/
+  src: url("./../fonts/Montserrat SemiBold/Montserrat SemiBold.eot?iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("./../fonts/Montserrat SemiBold/Montserrat SemiBold.woff2")
+      format("woff2"),
+    /* chrome、firefox */
+      url("./../fonts/Montserrat SemiBold/Montserrat SemiBold.woff")
+      format("woff"),
+    /* chrome、firefox */
+      url("./../fonts/Montserrat SemiBold/Montserrat SemiBold.ttf")
+      format("truetype"),
+    /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+      url("./../fonts/Montserrat SemiBold/Montserrat SemiBold.svg#Montserrat-SemiBold")
+      format("svg"); /* iOS 4.1- */
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 500;
+  font-style: normal;
+  src: url("./../fonts/Inter Medium/Inter Medium.eot"); /* IE9 eot*/
+  src: url("./../fonts/Inter Medium/Inter Medium.eot?iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("./../fonts/Inter Medium/Inter Medium.woff2")
+      format("woff2"),
+    /* chrome、firefox */ url("./../fonts/Inter Medium/Inter Medium.woff")
+      format("woff"),
+    /* chrome、firefox */ url("./../fonts/Inter Medium/Inter Medium.ttf")
+      format("truetype"),
+    /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+      url("./../fonts/Inter Medium/Inter Medium.svg#Inter-Medium") format("svg"); /* iOS 4.1- */
+}
