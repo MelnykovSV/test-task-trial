@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunktest_task_trial=self.webpackChunktest_task_trial||[]).push([[812],{1812:function(t,e,n){n.r(e),n.d(e,{default:function(){return i}});var a,s=n(168),r=n(6088).Z.main(a||(a=(0,s.Z)([""]))),c=n(184),i=function(){return(0,c.jsx)(r,{className:"container",children:(0,c.jsx)("h1",{children:"Home page"})})}}}]);
+//# sourceMappingURL=812.6bf3d58f.chunk.js.map
