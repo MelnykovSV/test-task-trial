@@ -4,6 +4,7 @@ import { ModernNormalize } from "emotion-modern-normalize";
 import { Suspense, lazy } from "react";
 import { ToastContainer } from "react-toastify";
 import { SharedLayout } from "../SharedLayout/SharedLayout";
+import StyledLoader from "../../ui/StyledLoader/StyledLoader";
 
 const CatalogPage = lazy(() => import("../../pages/CatalogPage/CatalogPage"));
 const FavoritesPage = lazy(() =>
@@ -16,7 +17,7 @@ function App() {
   return (
     <Container>
       <ModernNormalize />
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<StyledLoader />}>
         <Routes>
           <Route element={<SharedLayout />}>
             <Route path="/" element={<HomePage />} />

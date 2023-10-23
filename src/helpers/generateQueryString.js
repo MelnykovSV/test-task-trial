@@ -1,12 +1,12 @@
 export const generateQueryString = ({
-  brand,
+  make,
   rentalPrice,
   minMileage,
   maxMileage,
 }) => {
   const data = Object.assign(
     {},
-    brand === null || brand === "" ? null : { brand },
+    make === null || make === "" ? null : { make },
     rentalPrice === null || rentalPrice === "" ? null : { rentalPrice },
     minMileage === null || minMileage === "" ? null : { minMileage },
     maxMileage === null || maxMileage === "" ? null : { maxMileage }

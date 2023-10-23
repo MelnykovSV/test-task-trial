@@ -1,25 +1,34 @@
-import { Container } from "./SharedLayout.styled";
+import * as S from "./SharedLayout.styled";
 import { Outlet } from "react-router";
 import { NavLink } from "react-router-dom";
 import { useLocation } from "react-router";
+import { StyledButton } from "../../ui";
 
 export const SharedLayout = () => {
   const location = useLocation();
   return (
-    <Container>
+    <S.Container>
       <header>
-        <nav>
-          <NavLink to="/" state={{ from: location }}>
-            {" "}
-            Home
-          </NavLink>
-          <NavLink to={location.state?.from ?? "/catalog"}>Catalog</NavLink>
-          <NavLink to="favorites" state={{ from: location }}>
-            Favorites
-          </NavLink>
-        </nav>
+        <div className="container">
+          <S.StyledNav>
+            <StyledButton component={NavLink} to="/">
+              Home
+            </StyledButton>
+            <StyledButton
+              component={NavLink}
+              to={location.state?.from ?? "/catalog"}>
+              Catalog
+            </StyledButton>
+            <StyledButton
+              component={NavLink}
+              to="favorites"
+              state={{ from: location }}>
+              Favorites
+            </StyledButton>
+          </S.StyledNav>
+        </div>
       </header>
       <Outlet />
-    </Container>
+    </S.Container>
   );
 };

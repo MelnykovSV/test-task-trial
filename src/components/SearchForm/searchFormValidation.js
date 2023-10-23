@@ -1,13 +1,12 @@
 import { object, string } from "yup";
 
 export const searchFormValidation = object({
-  brand: string().nullable(true),
-  rentalPrice: string()
-    .nullable(true)
-    .matches(/^[0-9]+$/, {
-      message: "Error message",
-      excludeEmptyString: true,
-    }),
+  brand: string(),
+  rentalPrice: string().nullable(true),
+  // .matches(/^[0-9]+$/, {
+  //   message: "Error message",
+  //   // excludeEmptyString: true,
+  // }),
   minMileage: string()
     .nullable(true)
     .matches(/^[0-9]+$/, {

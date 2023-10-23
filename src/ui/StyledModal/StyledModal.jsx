@@ -1,5 +1,5 @@
 import { Container } from "./StyledModal.styled";
 
-export const StyledModal = () => {
-  return <Container></Container>;
+export const StyledModal = ({children,...props}) => {
+  return <Container {...props}>{children}</Container>;
 };
